@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CahitBuyuktumturk_Odev2.Yapılacaklar"
+             Title="Yapılacaklar">
+    <RefreshView>
+        <StackLayout>
+        <Button x:Name="AddMethod" Text="Görev Ekle " Clicked="YeniGorev" Scale="0.8" Margin="30,30,30,30"/>
+        <CollectionView x:Name="todos">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="*,Auto">
+                        <StackLayout Margin="30,30,30,30" Grid.Column="0" >
+                            <Label Text="{Binding Head}" Margin="10,10,10,10"/>
+                            <Label Text="{Binding Detail}" Margin="10,10,10,10"/>
+                            <Label Text="{Binding Date}" Margin="10,10,10,10"/>
+                            <Label Text="{Binding Hour} " Margin="10,10,10,10"/>
+                        </StackLayout>
+                        <Grid Grid.Column="1" RowDefinitions="Auto,Auto" Margin="30,30,30,30">
+                            <Button x:Name="Delete" Grid.Row="0" Text="Kaldır" Margin="20,20,20,20" Clicked="Delete"/>
+                            <Button Grid.Row="1" Text="Düzenle" Margin="20,20,20,20" Clicked="GorevGuncelle" CommandParameter="{Binding ID}"/>
+                        </Grid>
+                    </Grid>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+    </StackLayout>
+    </RefreshView>
+</ContentPage>

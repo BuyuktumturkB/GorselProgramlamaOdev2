@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CahitBuyuktumturk_Odev2.Planlama"
+             Title="Planlama">
+    <StackLayout >
+        <StackLayout  Margin="20,20,20,20" >
+            <Label  Text="Başlık Giriniz" Margin="10,10,10,10" VerticalOptions="Center" />
+            <Entry x:Name="Bas" Placeholder="" Keyboard="Text"  />
+            <Label  Text="Detay"/>
+            <Entry x:Name="Detay" Grid.Row="0" Placeholder="" Keyboard="Text"/>
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,Auto" />
+            <Label Text="Tarih" Grid.Row="0" Grid.Column="0" Margin="30,30,30,30"/>
+            <DatePicker x:Name="Tarih" Grid.Row="0" Grid.Column="1" Margin="30,30,30,30"/>
+            <Label Text="Saat" Grid.Row="1" Grid.Column="0" Margin="30,30,30,30"/>
+            <TimePicker x:Name="Saat" Grid.Row="1" Grid.Column="1" Margin="30,30,30,30"/>
+
+        </StackLayout>
+        <Grid ColumnDefinitions="Auto,Auto">
+            <Button x:Name="Iptal" Grid.Column="0" Margin="20,20,20,20" Text="İptal Et" Clicked="Cancel"/>
+            <Button x:Name="OK" Grid.Column="1" Margin="20,20,20,20" Text="Kaydet" Clicked="Save" />
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

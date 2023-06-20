@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CahitBuyuktumturk_Odev2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CahitBuyuktumturk_Odev2"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Icon="Home"
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent Title="Borsa"
+                  ContentTemplate="{DataTemplate local:Borsa}"
+                  Route="Borsa" 
+                  Icon="borsa"/>
+    <ShellContent Icon="news.png"
+                  Title="Haberler" ContentTemplate="{DataTemplate local:Haberler}"
+                  Route="Haberler"/>
+    <ShellContent Icon="cloud.jpg"
+                  Title="Meteoroloji"
+                  ContentTemplate="{DataTemplate local:Meteoroloji}"
+                  Route="Meteoroloji" />
+    <ShellContent Icon="todo.png" Title="Yapılacaklar" ContentTemplate="{DataTemplate local:Yapılacaklar}" Route="Yapılacaklar"/>
+
+    <ShellContent Icon="Settings" Title="Ayarlar" ContentTemplate="{DataTemplate local:Ayarlar}" Route="Ayarlar"/>
+    
+   
+
+
+
+</Shell>

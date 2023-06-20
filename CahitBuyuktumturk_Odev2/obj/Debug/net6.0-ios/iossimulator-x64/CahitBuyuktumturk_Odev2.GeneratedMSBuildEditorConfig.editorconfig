@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CahitBuyuktumturk_Odev2
+build_property.ProjectDir = C:\Users\cahes\source\repos\CahitBuyuktumturk_Odev2\CahitBuyuktumturk_Odev2\
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Ayarlar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Ayarlar.xaml
+build_metadata.AdditionalFiles.TargetPath = Ayarlar.xaml
+build_metadata.AdditionalFiles.RelativePath = Ayarlar.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Borsa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Borsa.xaml
+build_metadata.AdditionalFiles.TargetPath = Borsa.xaml
+build_metadata.AdditionalFiles.RelativePath = Borsa.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/DetayHaber.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.DetayHaber.xaml
+build_metadata.AdditionalFiles.TargetPath = DetayHaber.xaml
+build_metadata.AdditionalFiles.RelativePath = DetayHaber.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Haberler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Haberler.xaml
+build_metadata.AdditionalFiles.TargetPath = Haberler.xaml
+build_metadata.AdditionalFiles.RelativePath = Haberler.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Meteoroloji.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Meteoroloji.xaml
+build_metadata.AdditionalFiles.TargetPath = Meteoroloji.xaml
+build_metadata.AdditionalFiles.RelativePath = Meteoroloji.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Planlama.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Planlama.xaml
+build_metadata.AdditionalFiles.TargetPath = Planlama.xaml
+build_metadata.AdditionalFiles.RelativePath = Planlama.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/cahes/source/repos/CahitBuyuktumturk_Odev2/CahitBuyuktumturk_Odev2/Yapılacaklar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CahitBuyuktumturk_Odev2.Yapılacaklar.xaml
+build_metadata.AdditionalFiles.TargetPath = Yapılacaklar.xaml
+build_metadata.AdditionalFiles.RelativePath = Yapılacaklar.xaml

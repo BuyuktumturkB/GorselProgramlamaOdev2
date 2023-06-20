@@ -11,6 +11,7 @@
             <Label Text="ÖDEV 2" FontSize="30"/>
             <Image Source="burakresim.png"/>
             <Label Text="Cahit Burak Büyüktümtürk"/>
+            <Label Text="18010311004"/>
             <Label Text="Bartın Üniversitesi Bilgisayar Mühendisliği"/>
             <Label Text="Görsel Programlama"/>
     </StackLayout>
